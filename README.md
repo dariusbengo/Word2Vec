@@ -109,7 +109,7 @@ from gensim.models import Word2Vec
 
 model = Word2Vec(sentences, vector_size=100, min_count=3,window=5, workers=4) #calcul des vecteurs des tokens
 
-model.train(sentences, epochs=100, total_examples=len(sentences)) #entrainement du modèle
+model.train(sentences, epochs=15, total_examples=len(sentences)) #entrainement du modèle
 ```
 
 
@@ -125,7 +125,7 @@ model.train(sentences, epochs=100, total_examples=len(sentences)) #entrainement 
 
 `Workers = 4` signifie qu'on utilise 4 coeurs pour le traitement parallèle.
 
-`Epochs = 100` signifie que le modèle va passer 100 fois en revue le corpus de texte. Cela améliore la qualité de l'apprentissage.
+`Epochs = 15` signifie que le modèle va passer 15 fois en revue le corpus de texte. Cela améliore la qualité de l'apprentissage.
 
 `Min_count = 3`signifie qu'on ne prend en compte que les mots qui apparaissent au moins 3 fois.
 
