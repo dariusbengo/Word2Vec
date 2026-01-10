@@ -1,6 +1,6 @@
 <h1>Word2Vec</h1>
 
-<h5>Dans ce devoir, nous allons entraîner Word2vec avec la base de données movies_metadata présente sur https://www.kaggle.com/rounakbanik/the-movies-dataset. </h5>
+<h5>Dans ce projet, nous allons entraîner Word2vec avec la base de données movies_metadata présente sur https://www.kaggle.com/rounakbanik/the-movies-dataset. </h5>
 
 
 <h5>Word2Vec est un groupe de modèles utilisé pour le plongement lexical. 
