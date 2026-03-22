@@ -1,4 +1,4 @@
-<h1>Word2Vec</h1>
+<h1>Modèle Word2Vec sur des critiques de films</h1>
 
 <h5>Dans ce projet, nous allons entraîner Word2vec avec la base de données movies_metadata présente sur https://www.kaggle.com/rounakbanik/the-movies-dataset. </h5>
 
